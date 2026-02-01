@@ -93,12 +93,3 @@ If you have any ideas for new features, bug fixes, or improvements, feel free to
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
-## Author
-
-**Pranav Jarande**
-
-- Email: jarandepranav2004@gmail.com
-
-For questions, feedback, or collaboration opportunities, feel free to reach out!
