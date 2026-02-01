@@ -1,11 +1,4 @@
-# Coderover
-
-![Coderover Logo](/Frontend/public/logo.png)
-
-## Live Link  
-[Link 1 - Vercel](https://code-rover-frontend.vercel.app/)  
-[Link 2 - OnRender](https://coderover-frontend.onrender.com/)  
-
+# CodeBench
 **Note:** The Docker-based *Run Code* and *Submit Code* functionalities are currently not available in the deployed version. To access these features, please run the project locally with Docker configured.
 
 ## Overview
@@ -37,47 +30,12 @@ Built on the MERN stack (MongoDB, Express, React, Node.js), Coderover offers sec
 Here are some screenshots of Coderover in action:
 
 ### Home Page
-
-![Home](/Screenshots/home.png)
-
 ### Live Interview
-
-![Live Interview - Video Chat](/Screenshots/vc.png)
-
-![Live Interview - Code Editor](/Screenshots/vc1.png)
-
-![Live Interview - Problem Description](/Screenshots/vc2.png)
-
-![Live Interview - Problem Description](/Screenshots/vc3.png)
-
 ### User Profile
-
-![Profile Overview](/Screenshots/profile.png)
-
-![Profile Details](/Screenshots/profile2.png)
-
-### Problem Set
-
-![Problem Set List](/Screenshots/problemset.png)
-
 ### Problem View
-
-![Problem Description](/Screenshots/problem.png)
-
-![Problem Solution](/Screenshots/problem2.png)
-
-### Discussion Forum
-![Discuss Page](/Screenshots/discuss.png)
-## How to Run the Project Locally
 
 
 ### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/coderover.git
-cd coderover
-```
-
 ### Backend Setup
 
 1. Navigate to the backend directory:
@@ -121,31 +79,13 @@ cd coderover
    ```bash
    npm install
    ```
-
-3. Create a `.env` file in the frontend directory and add the following variables:
-   ```
-   VITE_BACKEND_URL=http://localhost:8000/api/v1
-   VITE_BACKEND_URL_FOR_SOCKET=http://localhost:8000
-   ```
-
-4. Start the frontend application:
-   ```bash
-   npm run dev
-   ```
-
 ### Docker Setup for Code Execution
 
 1. Open Docker desktop
 2. Container will get formed automatically and destroyed after code execution
-
-
 You can now register or log in, create coding rooms, and collaborate in real-time!
-
-
 ## Contributing
-
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make to Coderover are greatly appreciated.
-
 If you have any ideas for new features, bug fixes, or improvements, feel free to submit a pull request. Here's how you can get started:
 
 1. Fork the Project
